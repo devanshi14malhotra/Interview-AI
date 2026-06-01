@@ -2,6 +2,8 @@
 
 InterviewAI is an advanced, AI-powered mock interview platform designed to simulate a strict, proctored technical interview environment. By leveraging generative AI, the platform provides highly personalized interview questions based on the candidate's resume and target job description, followed by a comprehensive suitability analysis and feedback report.
 
+Live App link : https://interview-ai-dm.vercel.app/ 
+
 ## Features
 
 - Dynamic Question Generation: Automatically generates customized technical, behavioral, and problem-solving questions by natively parsing the candidate's uploaded PDF resume and comparing it against the provided job description.
