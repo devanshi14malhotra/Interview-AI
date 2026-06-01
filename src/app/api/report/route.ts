@@ -36,7 +36,7 @@ export async function POST(req: NextRequest) {
       }
     });
 
-    const text = response.text();
+    const text = response?.text || "{}";
     const report = JSON.parse(text || "{}");
     
     return NextResponse.json({ report });

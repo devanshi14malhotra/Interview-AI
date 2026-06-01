@@ -27,6 +27,13 @@ export interface ReportData {
     positive: string[];
     negative: string[];
   };
+  suitabilityAnalysis: string;
+  qaReview: Array<{
+    question: string;
+    userAnswer: string;
+    feedback: string;
+    isPositive: boolean;
+  }>;
 }
 
 interface InterviewState {

@@ -43,7 +43,7 @@ export async function POST(req: NextRequest) {
       }
     });
 
-    const text = response.text();
+    const text = response?.text || "{}";
     const evaluation = JSON.parse(text || "{}");
     
     return NextResponse.json({ evaluation });

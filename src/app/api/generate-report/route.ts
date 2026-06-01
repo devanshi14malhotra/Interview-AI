@@ -85,7 +85,7 @@ export async function POST(req: Request) {
       }
     }
 
-    let text = response.text || "{}";
+    let text = response?.text || "{}";
     text = text.replace(/```json/gi, '').replace(/```/g, '').trim();
 
     // Failsafe parsing

@@ -67,7 +67,7 @@ export async function POST(req: Request) {
       }
     }
 
-    let text = response.text || "[]";
+    let text = response?.text || "[]";
     text = text.replace(/```json/g, '').replace(/```/g, '').trim();
 
     let questions;
