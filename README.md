@@ -24,7 +24,7 @@ Ensure you have Node.js (v18 or higher) and npm installed on your machine. You w
 
 1. Clone the repository and navigate into the project directory:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/devanshi14malhotra/Interview-AI.git
    cd interview-ai
    ```
 
